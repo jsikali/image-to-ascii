@@ -26,14 +26,14 @@ int main(int argc, char** argv)
    printf("printing the image at \"%s\" w/o any parsing...\n\n", argv[1]);
    //fprintf(stdout, "%s", image); // lol
 
+	//nts: on jpg this prints nothing, on png the file signature is wrong?
    char filecontent = fgetc(image);
 	while(filecontent != EOF)
 	{
-		printf("%c", filecontent);
+		printf("%x ", filecontent);
 		filecontent = fgetc(image);
 	}
 	
-
    fclose(image);
    return 0;   
 }
