@@ -1,5 +1,4 @@
-theoretically, conceptually even, i can have an idea and implement it
-(without fully forgetting about it
-(this is the proof of concept
-(which i have already forgotten about a few times but oh well
-(silly parenthenthetical remark so i change this when i finish this (which i will do!!!)))))
+This doesn't scratch my brain anymore and i was busy when it did :(
+
+if i return to this the vague goal was reading files and giving more control on the ascii output
+maybe even adding some features seen in art programs (like multiply layers) to combine images
